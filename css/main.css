@@ -11,17 +11,20 @@ html {
   width: 100%;
 }
 
-.circle {
-  position: absolute;
-  float: left;
-  margin: 0;
-  bottom: 20%;
-}
-
 .banner {
   overflow: hidden;
   position: relative;
-  max-height: 500%;
+  max-height: 500px;
+}
+
+.banner-left {
+  float: left;
+  width: 33%;
+}
+
+.banner-right {
+  float: right;
+  width: 60%;
 }
 
 .banner-content {
@@ -31,7 +34,7 @@ html {
   width: 100%;
   padding: 1em;
   max-width: 45rem;
-  transform: translateX(-50%);
+  transform: translate(-50%, -20%);
   float: right;
 }
 
@@ -59,20 +62,16 @@ html {
 h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: bold;
-  position: absolute;
   font-size: 3rem;
-  top: 50%;
-  left: 30%;
   margin: 0;
   padding: 0;
+  max-width: 6em;
 }
 
 p {
-  position: absolute;
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
-  left: 30%;
-  padding: 2rem;
+  padding: 0;
 }
 
 body {
